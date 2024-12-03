@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Vidaloka&display=swap');
+
+body {
+    min-height: 100vh;
+    font-family: Vidaloka, serif;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(./StockCake-Vintage\ Night\ Ride_1733185861.jpg);
+    background-size: cover;
+    
+    overflow: scroll;
+}
+    
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+   
+    min-height: fit-content;
+    
+}
+
+img {
+    max-width: 100px;
+    height: auto;
+    padding: 20px 30px 15px;
+    filter: drop-shadow(3px 3px 15px #ffffff)
+}
+
+.header:hover {
+    box-shadow: inset 1px 2px 8px black;
+    filter: drop-shadow(1px 1px 10px #080707);
+    background-color: rgb(99, 22, 22);
+    
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    margin-left: auto;
+    padding: 10px 100px;
+    color: #baa8a8;
+    opacity: 80%;
+}
+
+a {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+li {
+    gap: 36px;
+}
+
+.main-block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 700px;
+    margin: 0;
+    
+}
+
+.main-block__text {
+    font-family: "Schibsted Grotesk", sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 100px 50px;
+    word-spacing: 0.7rem;
+}
+
+.main-block__header {
+    font-size: 20px;
+    font-weight: 700;
+    color: #f2f2f2;
+    background-color: rgb(147, 28, 28);
+    padding: 10px 20px;
+}
+
+.main-block__slogan {
+    font-size: 80px;
+    font-weight: 900;
+    text-wrap: wrap;
+    line-height: 100px;
+    color: rgb(201, 198, 198);
+}
+
+.button-order {
+    background-color: rgb(147, 28, 28);
+    text-transform: uppercase;
+    border: none;
+    font-size: 14px;
+    color: #f2f2f2;
+    font-weight: 600;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.button-order:hover {
+    filter:contrast(300%)
+}
+
+
+
+.main-block__feedback {
+
+}
+
+.footer {
+    display: flex;
+    height: 100px;
+    
+}
