@@ -256,17 +256,44 @@ li:hover {
 
 .footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    height: 60px;
+    min-height: fit-content;
     margin-top: auto;
+    padding: 20px 40px;
 }
 
-/* .instagram-logo
-{
-    transform: scale(3%);
-} */
+.footer__left-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
 
-.whatsup-logo {
-    transform: scale(5%);
+.footer__left-block__text {
+    color: rgb(202, 194, 194);
+    font-size: 12px;
+}
+
+.footer__left-block img {
+    filter: opacity(80%);
+}
+
+.footer__contact-icons {
+    display: flex;
+    gap: 30px;
+}
+
+.instagram-icon,
+.whatsup-icon,
+.facebook-icon {
+    fill:rgb(225, 217, 217)
+}
+
+.instagram-icon:hover,
+.whatsup-icon:hover,
+.facebook-icon:hover {
+    /* filter: drop-shadow(5px 5px 15px #efecec); */
+    filter: brightness(200%);
+   
 }
