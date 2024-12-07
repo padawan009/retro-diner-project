@@ -12,9 +12,6 @@ body {
     background-image: url(./StockCake-Vintage\ Night\ Ride_1733185861.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    
-    overflow-y: scroll;
-    /* overflow-x: hidden; */
 }
     
 
@@ -22,9 +19,7 @@ body {
     display: flex;
     justify-content: space-between;
     text-align: center;
-   
     min-height: fit-content;
-    
 }
 
 .header__logo {
@@ -48,8 +43,7 @@ ul {
     margin-left: auto;
     padding: 10px 100px;
     color: #baa8a8;
-    opacity: 80%;
-    
+    opacity: 80%; 
 }
 
 a {
@@ -74,12 +68,9 @@ li:hover {
     margin: 0;
     gap: 100px;
     min-height: 100vh;
-    
-    
 }
 
 .main-block__text {
-    /* font-family: "Schibsted Grotesk", sans-serif; */
     text-transform: uppercase;
     display: flex;
     max-width: 600px; 
@@ -123,33 +114,27 @@ li:hover {
 }
 
 .button-order:hover {
-    /* filter: contrast(300%); */
     filter: drop-shadow(2px 2px 10px #efecec);
     background-color: rgb(195, 38, 38);
 }
 
 .main-block__order {
     display: flex;
- 
     justify-content: center;
     align-items: center;
-    /* font-family: "Schibsted Grotesk", sans-serif; */
-    
 }
 
 .order-block {
-    display: inline-block;
-    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     color: #efecec;
     background-color: rgb(102, 21, 21);
     border: 3px solid rgb(116, 225, 224);;
-    border-radius: 3em 3em;
-    /* width: max-content; */
-    /* background-image: url(./pngwing.com__1_-removebg-preview.png); */
-    background-repeat: no-repeat;
-    position: relative;
-    padding: 50px 30px;
-    filter: drop-shadow(3px 3px 20px #0b9ba5)
+    border-radius: 3em;
+    padding: 70px 30px;
+    filter: drop-shadow(3px 3px 20px #0b9ba5);
+    gap: 15px;
   
   }
 
@@ -157,98 +142,65 @@ li:hover {
     background-color: #f2f2f2;
     border: none;
     border-radius: 5px;
-    /* max-width: 200px; */
-    
+    min-width: 250px;
+    padding: 3px 5px;
   }
 
-  input[type="text"],
-  input[type="tel"] {
+  /* input[type="text"],
+  input[type="tel"],
+  input[type="date"] {
     border:0;
     margin-left:10px;
     margin-top:20px;
-    }
-    
-  label {
-    
-
-  }
-
-  /* .main-block__order::before {
-    content: url(./pngwing.com__1_-removebg-preview.png);
-    position: absolute; 
 } */
 
 .main-block__order::after {
     position: absolute;
     content: url(./—Pngtree—vector\ order\ here\ neon\ sign_6542727.png);
     transform: scale(10%);
-    top: -1070px;
-
-    /* content: url(./—Pngtree—order\ here\ neon\ sign_6561646.png);
-    top: -850px;
-    transform: scale(15%); */
+    top: -1070px;/
 }
 
 .submit-button {
     background-color: rgb(224, 195, 160);
-    margin-top: 40px;
-    margin-left: 60%;
+    margin-top: 20px;
+    margin-right: 20px;
     color: rgb(102, 21, 21);
 }
 
 .submit-button:hover {
-    /* filter: contrast(300%); */
     filter: drop-shadow(2px 2px 10px #efecec);
     background-color: rgba(232, 243, 112, 0.781);
 }
-
-
-
 
 .menu-container {
    background-color: #080707; 
    display: flex;
    justify-content: center;
    align-items: flex-start;
-   /* position:relative; */
-   /* background-attachment: local; */
    background-image: radial-gradient(circle, #2b6981, #2b0a1c);
 }
 
 .menu {
-    
-    /* min-height: 100vh; */
-  
-   
+    min-height: 100vh;
     transform: scale(80%);
-    
-    
-    
 }
 
 .menu:hover {
-    
     transform: scale(1.5);
     transition: 2s;
-
-    
 }
 
 .return-button {
     position: fixed;
     right: 120px;
-   
-   
 }
 
 .return-button:hover {
-    /* filter: contrast(300%); */
     filter: drop-shadow(2px 2px 15px #efecec80);
     background-color: rgb(195, 38, 38);
     box-shadow: #efecec;
-
 }
-
 
 .main-contacts {
     display: flex;
