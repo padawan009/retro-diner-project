@@ -179,6 +179,8 @@ li:hover {
    justify-content: center;
    align-items: flex-start;
    background-image: radial-gradient(circle, #2b6981, #2b0a1c);
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 .menu {
