@@ -6,14 +6,30 @@ body {
     font-size: 18px;
     display: flex;
     flex-direction: column;
-    background-color: rgb(34, 33, 33);
-    color: #bcbaba;
+    background-color: rgb(227, 226, 226);
+    color: #5f5d5d;
 }
 
-.header-story,
 .footer-story {
-    background-color: rgb(147, 28, 28); 
+    background-color: rgb(111, 21, 21); 
     min-height: 50px;
+}
+
+.header-story__picture {
+    background-image: url(./StockCake-Neon-lit\ Retro\ Diner_1733616297.jpg);
+    min-height: calc(100vh - 300px);
+    background-position: 50% 40%;
+}
+
+.header-story__text {
+    font-size: 45px;
+    font-weight: 600;
+    color: #f3f1f1;
+    text-transform: uppercase;
+    filter: drop-shadow(3px 3px 15px #a6a4a4);
+    margin-top: 220px;
+    margin-left: 50px;
+    letter-spacing: 2px;
 }
 
 .footer-story {
@@ -22,8 +38,51 @@ body {
 
 .main-text-story {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    /* min-height: calc(100vh - 100px); */
+    min-height: calc(100vh - 100px);
+    position: relative;
+    margin-bottom: 60px;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    color: rgb(177, 37, 37); 
+}
+
+p {
+    margin: 30px;
+    text-align: center;
+}
+
+.main-text-story__picture {
+    margin: 40px;
+}
+
+.signature-pic {
+    position: absolute;
+    transform: scale(25%);
+    top: 200px;
+}
+
+.return-button {
+    text-transform: uppercase;  
+    border: none;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 5%;
+    cursor: pointer;
+    letter-spacing: 0.8px;
+    background-color: rgb(224, 210, 190);
+    color: rgb(50, 15, 15);
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.return-button:hover {
+    filter: drop-shadow(2px 2px 15px #efecec80);
+    background-color: rgb(240, 217, 189);
 }
