@@ -16,7 +16,6 @@ body {
 
 .header-story__picture {
     background-image: url(./StockCake-Neon-lit\ Retro\ Diner_1733616297.jpg);
-    /* min-height: calc(100vh - 300px); */
     max-height: 300px;;
     background-position: 50% 40%;
     background-repeat: no-repeat;
@@ -30,7 +29,6 @@ body {
     text-transform: uppercase;
     filter: drop-shadow(3px 3px 15px #a6a4a4);
     margin: 220px 0px 15px 50px;
-    /* margin-left: 50px; */
     letter-spacing: 2px;
 }
 
