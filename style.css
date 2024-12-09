@@ -70,7 +70,7 @@ li:hover {
 .main-block__text {
     text-transform: uppercase;
     display: flex;
-    max-width: 500px; 
+    max-width: 600px; 
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -79,21 +79,21 @@ li:hover {
 }
 
 .main-block__header {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
     color: #f2f2f2;
     background-color: rgb(147, 28, 28);
-    padding: 8px 18px;
+    padding: 10px 20px;
 }
 
 .main-block__slogan {
-    font-size: 70px;
+    font-size: 75px;
     font-weight: 900;
     text-wrap: wrap;
-    line-height: 80px;
+    line-height: 90px;
     color: rgb(201, 198, 198);
     filter: drop-shadow(3px 3px 15px #565353);
-    margin: 15px 0;
+    margin: 3px 0;
 }
 
 .button-order,
@@ -147,7 +147,7 @@ li:hover {
   }
 
   label {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   /* input[type="text"],
@@ -161,7 +161,7 @@ li:hover {
 .main-block__order::after {
     position: absolute;
     content: url(./—Pngtree—vector\ order\ here\ neon\ sign_6542727.png);
-    transform: scale(8%);
+    transform: scale(9%);
     bottom: -920px;
 }
 
